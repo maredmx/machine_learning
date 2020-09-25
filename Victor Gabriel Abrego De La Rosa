@@ -1,0 +1,10 @@
+#Programa 1
+string= input("Frase que se invertira: ") #se elige la frase a invertir
+l=len(string) #se mide el string 
+for i in range (l-1,-1,-1): #Calcula cada dato desde el final de el string mientras decrece 1
+    print(string[i], end="") #Muestra cada dato invertido
+    
+#programa 2
+Binario=(input("Numero Binario: "))      
+decimal = int(str(binario),2)                      
+print(Binario, "es igual a", decimal, "en decimal")
