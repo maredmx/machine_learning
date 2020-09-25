@@ -1,0 +1,12 @@
+#Programa 1
+frase = input("Ingresa una frase: ")    #Pide el string inicial
+for i in frase:                         #Inicia el ciclo for
+    invertido = i + invertido           #Establece una variable para invertir
+print(frase, "al revés es", invertido)  #Imprime el string inicial pero al revés
+invertido = ""                          #Borra/restablece el valor de la variable invertido
+
+#Programa 2
+binario = (input("Ingresa el valor binario: "))      #Pide por un número en binario
+decimal = int(str(binario), 2)                       #Declara una nueva variable y asigna la anterior en base 2
+print("""El número binario""", binario,              #Imprime el resultado
+      """equivale a""", decimal, """en decimal""")
